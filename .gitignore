@@ -1,0 +1,34 @@
+# Python
+*.pyc
+__pycache__/
+
+# Virtual environment
+env/
+
+# Node
+node_modules/
+
+# Logs
+logs/
+
+# Redis
+redis-*.conf
+
+# Sites (IMPORTANT - contains DB + private data)
+sites/*/private/
+sites/*/public/files/
+sites/assets/
+sites/*.json
+sites/.build
+sites/.cache
+
+# Bench config generated
+config/*.json
+config/nginx.conf
+config/supervisor.conf
+
+# Yarn cache
+.yarn/
+
+# OS
+.DS_Store
